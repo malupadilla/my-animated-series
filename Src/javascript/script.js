@@ -5,7 +5,7 @@ if (localStorage.getItem('count5')) {
     count = parseInt(localStorage.getItem('count5'));
 }
 
-// Atualiza o elemento HTML com o valor de 'count' ao carregar a página
+// Atualiza o elemento HTML com o valor de 'count5' ao carregar a página
 const value = document.getElementById('value');
 const plusButton = document.getElementById('plus');
 const minusButton = document.getElementById('minus');
